@@ -1,0 +1,53 @@
+.ant-advanced-search-form {
+    padding: 24px;
+    //background: #fbfbfb;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+  }
+  
+  .ant-advanced-search-form .ant-form-item {
+    display: flex;
+  }
+  
+  .ant-advanced-search-form .ant-form-item-control-wrapper {
+    flex: 1;
+  }
+  #correctQuery{
+      .ant-table-tbody{
+        .ant-table-row{
+            td{
+                word-break:break-all;
+                font-size: 12px;
+                &:nth-child(2){
+                    color: #0099FF;
+                }
+                &:nth-child(3){
+                    color: #0099FF;
+                }
+            }
+        }
+    }
+  }
+  #correctLog{
+      .ant-table-tbody{
+        .ant-table-row{
+            td{
+                word-break:break-all;
+                font-size: 12px;
+                &:nth-child(2){
+                    color: #0099FF;
+                }
+                &:nth-child(3){
+                    color: #0099FF;
+                }
+                &:nth-child(4){
+                  color: #0099FF;
+                }
+                &:nth-child(5){
+                  color: #0099FF;
+                }
+            }
+        }
+    }
+  }
+ 

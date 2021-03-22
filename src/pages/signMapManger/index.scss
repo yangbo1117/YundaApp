@@ -1,0 +1,32 @@
+.ant-btn-primary{
+    background:rgba(250,190,0,1);
+    border: none;
+    font-size: 16px;
+    margin-left: .3rem
+    
+}
+.reset{
+    color:rgba(250,190,0,1) !important;
+    border:1px solid rgba(250,190,0,1) !important;
+    margin-left: .1rem !important;
+}
+.container{
+    margin-top: .2rem
+}
+.ant-select-enabled:nth-child(2){
+    margin-left: .1rem
+}
+// .searchHead{
+//     border-bottom: 1px solid #EFEEEE;
+//     padding-bottom: .16rem
+// }
+.divider{
+    height: 1px;
+    width: 106%;
+    background-color:#EFEEEE;
+    margin-top: .16rem;
+    margin-left: -3%;
+    margin-bottom:5px;
+}
+
+

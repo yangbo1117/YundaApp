@@ -1,0 +1,17 @@
+.amap-marker-label{
+    background-color: #21AAF8;
+    border-radius:4px;
+    width:1.8rem;
+    white-space: pre-wrap;
+    .info{   
+        width:100%;    
+            p{
+                color: #FFFEFE;
+                margin-bottom: 0.02rem;
+                // text-overflow:ellipsis;
+                // overflow:hidden;
+                word-wrap:break-word; 
+                word-break: break-all;
+            }
+    }
+}

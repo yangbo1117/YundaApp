@@ -1,0 +1,67 @@
+@mixin flexbox() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+.funcLabel{
+    width: 5.5rem;
+    height: calc(4.5vh);
+    background:rgba(255,255,255,0.96);
+    // box-shadow:0px 1px 0px 0px rgba(0, 0, 0, 0.4);
+    border-radius:4px;
+    // position: absolute;
+    float: right;
+    right: .1rem;
+    bottom: .2rem;
+    @include flexbox();
+    align-items: center;
+    justify-content: center;
+        .ant-checkbox-wrapper{
+            margin-left: .14rem;
+            .ant-checkbox{
+                .ant-checkbox-inner{
+                    width:.14rem;
+                    height: .14rem;
+
+                }  
+            }
+            .ant-checkbox-checked{
+                .ant-checkbox-inner{
+                    background: url("../../../../asset/images/choosePress.png")no-repeat center;
+                    border-color: #fabe00;
+                    &::after{
+                        display: none;
+                    }
+                }
+            }
+            span{
+                font-size: 12px;
+                color: #000;
+                font-weight:400;
+            }
+        }
+        .mapChoose{
+            span{
+                width: 35px;
+                height: 35px;
+                background: url("../../../../asset/images/mapChoose.png")no-repeat center;
+                border-radius:0px 4px 4px 0px;
+                display: block;
+                background-color: #fabe00;
+                margin-left: 12px;
+            }
+            .bubble{
+                width:0;
+                height:0;
+                border-width:0.05rem ;
+                border-style:solid;
+                border-color:#fff #fabe00 #fff  #fff;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 35px;
+            }
+        }
+}

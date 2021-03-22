@@ -1,0 +1,50 @@
+.input-card{
+    width: 2.8rem;
+    background:white;
+    position: absolute;
+    z-index: 99999999999999999;
+    font-size: 14px;
+    border-radius: 5px;
+    right: 10px;
+    bottom: 10px;
+    padding-left: 30px;
+    box-shadow:0 0 2px rgb(4, 121, 136);
+    .p{
+        height: 10px;
+    }
+    .h{
+        margin-top:20px;
+        margin-bottom:10px;
+        font-weight: 900;
+    }
+}
+
+.input-item {
+    margin-top: 15px;
+  }
+
+  .btn{
+    font-size: 14px;
+    width: 110px;
+    height: 25px;
+    border-color: yellowgreen;
+  }
+
+  .btn:hover{
+      background: cadetblue;
+      color:white;
+  }
+
+.ant-calendar-picker-container{
+    z-index: 999999999999999999;
+}
+
+.ant-time-picker-panel{
+    z-index: 999999999999999999;
+}
+.ant-slider{
+    z-index: 999999999999999999;
+}
+.ant-tooltip{
+    z-index: 999999999999999999;
+}

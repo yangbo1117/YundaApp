@@ -1,0 +1,14 @@
+.container{
+    margin-top: 0 !important;
+    .nav-left{
+        color: #ffffff;
+        height: calc(100vh);
+    }
+    .main{
+        height: calc(100vh);
+        overflow: auto;
+    }
+    .content{
+        position: relative;
+    }
+}

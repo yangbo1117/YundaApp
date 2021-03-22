@@ -1,0 +1,40 @@
+@mixin flexbox() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+#container{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: calc(73.4vh);
+    z-index: 999;
+    margin-left: 0;
+    // border-radius:4px;
+    // border: 1px solid #FABE00;
+    @include flexbox();
+    li{
+        list-style: none;
+        height: .34rem;
+        width: 1.8rem;
+        color: #000;
+        text-align: center;
+        line-height: .34rem;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        border: none;
+        &:nth-child(2){
+            border-left: 1px solid #FABE00;
+            border-right: 1px solid #FABE00;
+        }
+    }  
+    .liChecked{
+        background-color: #FABE00;
+        color: #000;
+        border: 1px solid #fff;
+        border-radius: 4px;
+    }
+    
+}

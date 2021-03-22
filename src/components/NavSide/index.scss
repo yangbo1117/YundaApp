@@ -1,0 +1,85 @@
+@mixin flexbox() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+.ant-layout{
+    .ant-layout-content{
+        flex:0 1 auto;
+    }
+    .ant-layout-sider{
+        background-color: #fff;
+        ant-menu-submenu-title{
+            height: .4rem;
+            line-height: .4rem;
+        }
+        .ant-menu-submenu{
+            .spanAdd{
+                font-size: 14px;
+            }
+        }
+        // .ant-menu-submenu-active{
+        //     color: #231815;
+        // }
+        // .ant-menu-submenu-selected {
+        //     color: #231815;
+        //     &:hover{
+        //         color: #231815;
+        //     }
+        // }
+        .ant-menu-sub {
+            background:rgba(241,243,245,1);
+            .ant-menu-item-selected  {
+                background-color: rgba(241,243,245,1);
+                a{
+                    color: #fff;
+                    background:linear-gradient(-56deg,rgba(250,165,0,1),rgba(250,190,0,1));
+                    border-radius:14px;
+                }
+                
+
+            }
+            .ant-menu-item{
+                padding-left: .22rem !important;
+                @include flexbox();
+                align-items: center;
+                a{
+                    display: block;
+                    width:1.64rem;
+                    height:.28rem;
+                    line-height: .28rem;
+                    padding-left: .14rem;
+                    font-size: 14px;
+                    &:hover{
+                        background:linear-gradient(-56deg,rgba(250,165,0,1),rgba(250,190,0,1));
+                        border-radius:14px;
+                        color: #fff
+                    }
+               
+                }
+            }
+         }
+        .logo{
+            height:calc(8vh);
+            background: url("../../asset/images/asideHeader.png") no-repeat ;
+            background-size: contain;
+            background-color: #FABE00;
+            @include flexbox();
+            justify-content: center;
+            align-items: center;
+                .logoImg{
+                    width: 1.44rem;
+                    height: .28rem;
+                }
+        }
+    }
+
+    .AddIcon{
+        width: 18px;
+        margin-bottom: 3px;
+        margin-right: 3px;
+        vertical-align: middle;
+    }
+}

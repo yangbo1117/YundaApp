@@ -1,0 +1,46 @@
+#containers{
+    position: absolute;
+    top:  calc(6vh);
+    right: 5px;
+    overflow: auto;
+    background:rgba(255,255,255,0.96); 
+    height:calc(62vh);
+    padding: .1rem;
+    dt{
+        color: #0C0C0C;
+        text-align: left;
+        font-size: 18px;
+    }
+    .close{
+        right: .2rem;
+        top: .2rem;
+        position: absolute;
+    }
+    .content{
+        width: 2.85rem;
+        height: 3.3rem; 
+        border-bottom: 1px solid #ccc;     
+                dd{ margin-top: 15px;
+                    span:nth-child(1){
+                        color: #666;
+                        font-size: 14px;
+                        text-align: right;
+                        width: .65rem;
+                        display: inline-block;
+                        vertical-align: top;
+                    }
+                    span:nth-child(2){
+                        color: #000;
+                        font-size: 14px;
+                        display: inline-block;
+                        width: 1.75rem;
+                        vertical-align: top;
+                    }
+                };
+                dd:nth-child(1){
+                    margin-top: -7px;
+                }
+    
+            }
+        
+}

@@ -1,0 +1,20 @@
+.BMapLabel{
+    background-color: #21AAF8 !important;
+    border-radius:4px;
+    border: none !important;
+    white-space: pre-wrap !important;
+    height: auto !important;
+    padding: 0 !important;
+    .info{   
+        width:100%;    
+            p{
+                color: #FFFEFE;
+                line-height: 0.12rem;
+                margin-bottom: 0.02rem;
+                // text-overflow:ellipsis;
+                // overflow:hidden;
+                word-wrap:break-word; 
+                word-break: break-all;
+            }
+    }
+}

@@ -1,0 +1,42 @@
+#containers{
+    position: absolute;
+    top:  calc(6vh);
+    right: 10px;
+    overflow: auto;
+    background:rgba(255,255,255,0.96); 
+    height:calc(66vh);
+    dt{
+        color: #0C0C0C;
+        text-align: left;
+        font-size: 12px;
+    }
+    .close{
+        right: .2rem;
+        top: .2rem;
+        position: absolute;
+    }
+    .content{
+        width: 2.7rem;
+        height: auto;      
+        padding: .2rem;
+                dd{
+                    span:nth-child(1){
+                        color: #666;
+                        font-size: 12px;
+                        text-align: right;
+                        width: .55rem;
+                        display: inline-block;
+                        vertical-align: top;
+                    }
+                    span:nth-child(2){
+                        color: #000;
+                        font-size: 12px;
+                        display: inline-block;
+                        width: 1.75rem;
+                        vertical-align: top;
+                    }
+                }
+    
+            }
+        
+}
